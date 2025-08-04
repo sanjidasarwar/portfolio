@@ -1,5 +1,11 @@
+import Navbar from "./sections/Navbar";
+
 function App() {
-  return <div className="text-3xl font-bold underline">my portfolio</div>;
+  return (
+    <main className="max-w-7xl mx-auto relative">
+      <Navbar />
+    </main>
+  );
 }
 
 export default App;
