@@ -5,6 +5,7 @@ import { useMediaQuery } from "react-responsive";
 import CanvasLoader from "../components/CanvasLoader";
 import { HackerRoom } from "../components/HackerRoom";
 
+import Target from "../components/Target";
 import { calculateSizes } from "../data/constants";
 
 function Hero() {
@@ -44,6 +45,9 @@ function Hero() {
               position={sizes.deskPosition}
               rotation={[0, -Math.PI, 0]}
             />
+            <group>
+              <Target position={sizes.targetPosition} />
+            </group>
             <ambientLight intensity={1} />
             <directionalLight position={[10, 10, 10]} intensity={0.5} />
           </Suspense>
