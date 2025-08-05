@@ -1,9 +1,9 @@
 import js from '@eslint/js'
-import globals from 'globals'
+import { ReactThreeFiber } from '@react-three/fiber'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 import { defineConfig, globalIgnores } from 'eslint/config'
-
+import globals from 'globals'
 export default defineConfig([
   globalIgnores(['dist']),
   {
@@ -21,6 +21,11 @@ export default defineConfig([
         ecmaFeatures: { jsx: true },
         sourceType: 'module',
       },
+    },
+        plugins: {
+      "react-hooks": reactHooks,
+      "react-refresh": reactRefresh,
+      "@react-three": ReactThreeFiber,
     },
     rules: {
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],

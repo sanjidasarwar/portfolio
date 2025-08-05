@@ -13,7 +13,15 @@ body {
 }
 
 @layer utilities {
-
-  
+  .c-space{
+    @apply sm:px-10 px-5;
+  }
+    /* hero section */
+  .hero_tag {
+    @apply text-center xl:text-6xl md:text-5xl sm:text-4xl text-3xl font-black !leading-normal;
+  }
+    .text-gray_gradient {
+    @apply bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent;
+  }
 
 }
