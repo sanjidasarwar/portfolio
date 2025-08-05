@@ -5,6 +5,7 @@ import { useMediaQuery } from "react-responsive";
 import CanvasLoader from "../components/CanvasLoader";
 import { HackerRoom } from "../components/HackerRoom";
 
+import Cube from "../components/Cube";
 import ReactLogo from "../components/ReactLogo";
 import Target from "../components/Target";
 import { calculateSizes } from "../data/constants";
@@ -49,6 +50,7 @@ function Hero() {
             <group>
               <Target position={sizes.targetPosition} />
               <ReactLogo position={sizes.reactLogoPosition} />
+              <Cube position={sizes.cubePosition} />
             </group>
             <ambientLight intensity={1} />
             <directionalLight position={[10, 10, 10]} intensity={0.5} />
