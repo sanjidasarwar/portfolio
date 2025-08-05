@@ -7,6 +7,7 @@ import { HackerRoom } from "../components/HackerRoom";
 
 import Cube from "../components/Cube";
 import ReactLogo from "../components/ReactLogo";
+import Rings from "../components/Ring";
 import Target from "../components/Target";
 import { calculateSizes } from "../data/constants";
 
@@ -51,6 +52,7 @@ function Hero() {
               <Target position={sizes.targetPosition} />
               <ReactLogo position={sizes.reactLogoPosition} />
               <Cube position={sizes.cubePosition} />
+              <Rings position={sizes.ringPosition} />
             </group>
             <ambientLight intensity={1} />
             <directionalLight position={[10, 10, 10]} intensity={0.5} />
