@@ -16,7 +16,11 @@ function HeroCamera({ children, isMobile }) {
       );
     }
   });
-  return <group ref={groupRef}>{children}</group>;
+  return (
+    <group ref={groupRef} scale={1.3}>
+      {children}
+    </group>
+  );
 }
 
 export default HeroCamera;
