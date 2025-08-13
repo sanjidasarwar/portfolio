@@ -17,7 +17,7 @@ function HeroCamera({ children, isMobile }) {
     }
   });
   return (
-    <group ref={groupRef} scale={1.3}>
+    <group ref={groupRef} scale={1.2}>
       {children}
     </group>
   );

@@ -24,4 +24,21 @@ body {
     @apply bg-gradient-to-r from-[#BEC1CF] from-60% via-[#D5D8EA] via-60% to-[#D5D8EA] to-100% bg-clip-text text-transparent;
   }
 
+   /* about section */
+  .grid-container {
+    @apply w-full h-full border border-stone-800 bg-stone-950 rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+  }
+
+  .grid-headtext {
+    @apply text-xl font-semibold mb-2 text-white;
+  }
+
+  .grid-subtext {
+    @apply text-[#afb0b6] text-base;
+  }
+
+  .copy-container {
+    @apply cursor-pointer flex justify-center items-center gap-2;
+  }
+
 }
