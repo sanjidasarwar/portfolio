@@ -78,6 +78,38 @@ body {
 }
 
 
+
+ /* projects section  */
+/* .arrow-gradient {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.1) 10%,
+    rgba(255, 255, 255, 0.000025) 50%,
+    rgba(255, 255, 255, 0.000025) 50%,
+    rgba(255, 255, 255, 0.025) 100%
+  );
+} */
+
+  .arrow-btn {
+    @apply w-10 h-10 p-3 cursor-pointer active:scale-95 transition-all rounded-full;
+     background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.1) 10%,
+      rgba(255, 255, 255, 0.000025) 50%,
+      rgba(255, 255, 255, 0.000025) 50%,
+      rgba(255, 255, 255, 0.025) 100%
+    );
+  }
+
+  .tech-logo {
+    @apply w-10 h-10 rounded-md p-2 bg-neutral-100/10 flex justify-center items-center;
+  }
+.tech-logo img {
+  @apply max-w-full max-h-full object-contain;
+  display: block;
+  background-color: transparent !important;
+}
+
 .waving-hand {
   animation-name: wave-animation;
   animation-duration: 2.5s;
@@ -86,15 +118,6 @@ body {
   display: inline-block;
 }
 
-.arrow-gradient {
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0.1) 10%,
-    rgba(255, 255, 255, 0.000025) 50%,
-    rgba(255, 255, 255, 0.000025) 50%,
-    rgba(255, 255, 255, 0.025) 100%
-  );
-}
 
 @keyframes wave-animation {
   0% {

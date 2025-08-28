@@ -28,15 +28,15 @@ export const myProjects = [
     desc: 'Connectify is a real-time chat platform that supports both one-to-one and one-to-many conversations, enabling seamless communication with live updates and secure authentication.',
     subdesc:
       'Built with React, Node.js, Express, MongoDB, Socket.io, and JWT authentication, this app offers instant messaging, user authentication, password reset, and responsive design for all devices.',
-    href: 'https://github.com/sanjidasarwar/chat-app', 
+    href: 'https://chatapp-597g.onrender.com/', 
     texture: '/textures/project/chat-app.mp4',
-    logo: '/assets/project-logo-chat.png',
+    logo: '/assets/chat-logo.png',
     logoStyle: {
       backgroundColor: '#1B1F23',
       border: '0.2px solid #2D333B',
       boxShadow: '0px 0px 60px 0px #4A90E24D',
     },
-    spotlight: '/assets/spotlight-chat.png',
+    spotlight: '/assets/spotlight1.png',
     tags: [
       { id: 1, name: 'React.js', path: '/assets/react.svg' },
       { id: 2, name: 'Node.js', path: '/assets/nodejs.png' },
@@ -49,17 +49,17 @@ export const myProjects = [
     desc: 'ShopEase is a modern e-commerce application that delivers fast, SEO-optimized shopping experiences with a focus on responsive design and smooth user interactions.',
     subdesc:
       'Developed using React, Tailwind CSS, Redux, and Node.js, it supports product listing, cart management, authentication, and payment gateway integration.',
-    href: 'https://github.com/sanjidasarwar/ecommerce-app', 
+    href: 'https://ecommercefrontend-y58n.onrender.com/', 
     texture: '/textures/project/ecommerce.mp4',
-    logo: '/assets/project-logo-ecommerce.png',
+    logo: '/assets/ecommerce-logo.webp',
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
       boxShadow: '0px 0px 60px 0px #2F67B64D',
     },
-    spotlight: '/assets/spotlight-ecommerce.png',
+    spotlight: '/assets/spotlight2.png',
     tags: [
-      { id: 1, name: 'React.js', path: '/assets/react.svg' },
+      { id: 1, name: 'React.js', path: '/assets/react.png' },
       { id: 2, name: 'TailwindCSS', path: '/assets/tailwindcss.png' },
       { id: 3, name: 'Redux', path: '/assets/redux.png' },
       { id: 4, name: 'Node.js', path: '/assets/nodejs.png' },
@@ -70,45 +70,45 @@ export const myProjects = [
     desc: 'PlayListify allows users to create and manage personalized YouTube playlists, organize favorite videos, and quickly access recent playlists in a sleek dark-themed interface.',
     subdesc:
       'Built with React, Material UI, and YouTube API, featuring custom theme colors, responsive design, and smooth animations.',
-    href: 'https://github.com/sanjidasarwar/youtube-playlist-manager', 
+    href: 'https://reactyoutubeplaylist.netlify.app/', 
     texture: '/textures/project/playlist.mp4',
-    logo: '/assets/project-logo-playlist.png',
+    logo: '/assets/project-logo1.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
       boxShadow: '0px 0px 60px 0px #AA3C304D',
     },
-    spotlight: '/assets/spotlight-playlist.png',
+    spotlight: '/assets/spotlight3.png',
     tags: [
-      { id: 1, name: 'React.js', path: '/assets/react.svg' },
+      { id: 1, name: 'React.js', path: '/assets/react.png' },
       { id: 2, name: 'Material UI', path: '/assets/mui.png' },
-      { id: 3, name: 'YouTube API', path: '/assets/youtube.png' },
-      { id: 4, name: 'JavaScript', path: '/assets/javascript.png' },
+      { id: 3, name: 'YouTube API', path: '/assets/utube.jpg' },
+      { id: 4, name: 'JavaScript', path: '/assets/js.png' },
     ],
   },
-  {
-    title: 'FinTrack - Monthly Financial Dashboard',
-    desc: 'FinTrack helps users track their monthly income, expenses, and savings with a clean, easy-to-use dashboard that supports fixed expense categories and dynamic charts.',
-    subdesc:
-      'Built with React, Bootstrap, and Chart.js, it provides an interactive interface to analyze spending patterns and manage personal finances effectively.',
-    href: 'https://github.com/sanjidasarwar/financial-dashboard', 
-    texture: '/textures/project/finance.mp4',
-    logo: '/assets/project-logo-finance.png',
-    logoStyle: {
-      backgroundColor: '#60f5a1',
-      background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-      border: '0.2px solid rgba(208, 213, 221, 1)',
-      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-    },
-    spotlight: '/assets/spotlight-finance.png',
-    tags: [
-      { id: 1, name: 'React.js', path: '/assets/react.svg' },
-      { id: 2, name: 'Bootstrap', path: '/assets/bootstrap.png' },
-      { id: 3, name: 'Chart.js', path: '/assets/chartjs.png' },
-      { id: 4, name: 'JavaScript', path: '/assets/javascript.png' },
-    ],
-  },
+  // {
+  //   title: 'FinTrack - Monthly Financial Dashboard',
+  //   desc: 'FinTrack helps users track their monthly income, expenses, and savings with a clean, easy-to-use dashboard that supports fixed expense categories and dynamic charts.',
+  //   subdesc:
+  //     'Built with React, Bootstrap, and Chart.js, it provides an interactive interface to analyze spending patterns and manage personal finances effectively.',
+  //   href: 'https://github.com/sanjidasarwar/financial-dashboard', 
+  //   texture: '/textures/project/finance.mp4',
+  //   logo: '/assets/project-logo-finance.png',
+  //   logoStyle: {
+  //     backgroundColor: '#60f5a1',
+  //     background:
+  //       'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+  //     border: '0.2px solid rgba(208, 213, 221, 1)',
+  //     boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+  //   },
+  //   spotlight: '/assets/spotlight-finance.png',
+  //   tags: [
+  //     { id: 1, name: 'React.js', path: '/assets/react.svg' },
+  //     { id: 2, name: 'Bootstrap', path: '/assets/bootstrap.png' },
+  //     { id: 3, name: 'Chart.js', path: '/assets/chartjs.png' },
+  //     { id: 4, name: 'JavaScript', path: '/assets/javascript.png' },
+  //   ],
+  // },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
