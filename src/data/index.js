@@ -29,7 +29,7 @@ export const myProjects = [
     subdesc:
       'Built with React, Node.js, Express, MongoDB, Socket.io, and JWT authentication, this app offers instant messaging, user authentication, password reset, and responsive design for all devices.',
     href: 'https://chatapp-597g.onrender.com/', 
-    texture: '/textures/project/chat-app.mp4',
+    texture: '/textures/project/project1.mp4',
     logo: '/assets/chat-logo.png',
     logoStyle: {
       backgroundColor: '#1B1F23',
@@ -50,7 +50,7 @@ export const myProjects = [
     subdesc:
       'Developed using React, Tailwind CSS, Redux, and Node.js, it supports product listing, cart management, authentication, and payment gateway integration.',
     href: 'https://ecommercefrontend-y58n.onrender.com/', 
-    texture: '/textures/project/ecommerce.mp4',
+    texture: '/textures/project/project2.mp4',
     logo: '/assets/ecommerce-logo.webp',
     logoStyle: {
       backgroundColor: '#0E1F38',
@@ -71,7 +71,7 @@ export const myProjects = [
     subdesc:
       'Built with React, Material UI, and YouTube API, featuring custom theme colors, responsive design, and smooth animations.',
     href: 'https://reactyoutubeplaylist.netlify.app/', 
-    texture: '/textures/project/playlist.mp4',
+    texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo1.png',
     logoStyle: {
       backgroundColor: '#2A1816',
