@@ -1,3 +1,4 @@
+import emailjs from "@emailjs/browser";
 import { useState } from "react";
 
 function Contact() {
@@ -10,17 +11,32 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    try {
-      setLoading(true);
-      console.log("sent data to email");
-      setLoading(false);
-      setForm({ name: "", email: "", message: "" });
-      alert("Your message has been sent successfully");
-    } catch (error) {
-      setLoading(false);
-      console.log(error);
-      alert("Something went wrong. Please try again.");
-    }
+    setLoading(true);
+    emailjs
+      .send(
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        {
+          from_name: form.name,
+          to_name: "Sanjida Sarwar",
+          from_email: form.email,
+          to_email: "sanjidasarwar16@gmail.com",
+          message: form.message,
+        },
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      )
+      .then(
+        () => {
+          setLoading(false);
+          setForm({ name: "", email: "", message: "" });
+          alert("Your message has been sent successfully ✅");
+        },
+        (error) => {
+          setLoading(false);
+          console.error(error);
+          alert("Something went wrong. Please try again.");
+        }
+      );
   };
 
   return (
@@ -29,12 +45,12 @@ function Contact() {
         <img
           src="/assets/terminal.png"
           alt="terminal-bg"
-          className="absolute inset-0 h-screen"
+          className="absolute inset-0 min-h-screen"
         />
 
         <div className="contact-container">
           <h3 className="head-text">Let's talk</h3>
-          <p className="text-lg text-white-600 mt-3">
+          <p className="text-lg text-[#afb0b6] mt-3">
             Whether you’re looking to build a new website, improve your existing
             platform, or bring a unique project to life, I’m here to help.
           </p>
