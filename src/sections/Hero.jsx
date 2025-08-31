@@ -2,7 +2,6 @@ import { PerspectiveCamera } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 import { useMediaQuery } from "react-responsive";
-import CanvasLoader from "../components/CanvasLoader";
 import { HackerRoom } from "../components/HackerRoom";
 
 import Cube from "../components/Cube";
@@ -43,7 +42,7 @@ function Hero() {
       </div>
       <div className="w-full h-full inset-0 absolute">
         <Canvas className="w-full h-full">
-          <Suspense fallback={<CanvasLoader />}>
+          <Suspense fallback={null}>
             <PerspectiveCamera makeDefault position={[0, 0, 20]} />
             <HeroCamera isMobile={isMobile}>
               <HackerRoom
