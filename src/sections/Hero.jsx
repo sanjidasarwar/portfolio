@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import { useMediaQuery } from "react-responsive";
 import { HackerRoom } from "../components/HackerRoom";
 
+import CanvasLoader from "../components/CanvasLoader";
 import Cube from "../components/Cube";
 import HeroCamera from "../components/HeroCamera";
 import ReactLogo from "../components/ReactLogo";
@@ -42,7 +43,7 @@ function Hero() {
       </div>
       <div className="w-full h-full inset-0 absolute">
         <Canvas className="w-full h-full">
-          <Suspense fallback={null}>
+          <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 0, 20]} />
             <HeroCamera isMobile={isMobile}>
               <HackerRoom
