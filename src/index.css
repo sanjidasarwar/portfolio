@@ -80,23 +80,23 @@ body {
   }
 
   .work-canvas {
-    @apply col-span-1 rounded-lg bg-black border border-black;
+    @apply col-span-1 rounded-lg bg-stone-950  border-stone-800;
   }
 
   .work-content {
-    @apply col-span-2 rounded-lg bg-black border border-black;
+    @apply col-span-2 rounded-lg bg-stone-950 border border-stone-800;
   }
 
   .work-content_container {
-    @apply grid grid-cols-[auto_1fr] items-start gap-5  transition-all ease-in-out duration-500 cursor-pointer hover:bg-black rounded-lg sm:px-5 px-2.5;
+    @apply grid grid-cols-[auto_1fr] items-start gap-5  transition-all ease-in-out duration-500 cursor-pointer hover:bg-stone-600 rounded-lg sm:px-5 px-2.5;
   }
 
   .work-content_logo {
-    @apply rounded-3xl w-16 h-16 p-2 bg-black;
+    @apply rounded-3xl w-16 h-16 p-2 bg-stone-800;
   }
 
   .work-content_bar {
-    @apply flex-1 w-0.5 mt-4 h-full bg-black group-hover:bg-black group-last:hidden;
+    @apply flex-1 w-0.5 mt-4 h-full bg-stone-800 group-hover:border-stone-600 group-last:hidden;
   }
 
    /* projects section  */

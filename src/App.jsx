@@ -1,5 +1,6 @@
 import About from "./sections/About";
 import Contact from "./sections/Contact";
+import Experince from "./sections/Experince";
 import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
 import Navbar from "./sections/Navbar";
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
+      <Experince />
       <Contact />
       <Footer />
     </main>
